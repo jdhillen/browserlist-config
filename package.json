@@ -31,9 +31,11 @@
     "setup-browserslist-config": "./bin/setup-browserslist-config.js"
   },
   "scripts": {
-    "test": "echo \"No tests specified\"",
+    "prepare": "husky",
     "commit": "cz",
-    "semantic-release": "semantic-release --extends ./config/release.config.js"
+    "test": "echo \"No tests specified\"",
+    "release": "semantic-release",
+    "semantic-release": "semantic-release"
   },
   "publishConfig": {
     "access": "public"
@@ -45,7 +47,8 @@
     "@inquirer/prompts": "^7.3.2"
   },
   "devDependencies": {
-    "@jdhillen/release-config": "^2.0.0"
+    "@jdhillen/release-config": "^2.0.0",
+    "husky": "^9.1.7"
   },
   "config": {
     "commitizen": {
