@@ -12,7 +12,7 @@ A curated browserslist configuration for optimizing CSS and JavaScript compilati
 1. Install the package:
 
 ```bash
-npm install -D @jdhillen/browserslist-config-test
+npm install -D @jdhillen/browserslist-config
 ```
 
 2. Run the setup command:
@@ -36,7 +36,7 @@ If you prefer to set up manually, add to your `package.json`:
 ```json
 {
   "browserslist": [
-    "extends @jdhillen/browserslist-config-test"
+    "extends @jdhillen/browserslist-config"
   ]
 }
 ```
@@ -46,7 +46,7 @@ If you prefer to set up manually, add to your `package.json`:
 ```json
 {
   "browserslist": [
-    "extends @jdhillen/browserslist-config-test/modern"
+    "extends @jdhillen/browserslist-config/modern"
   ]
 }
 ```
@@ -56,7 +56,7 @@ If you prefer to set up manually, add to your `package.json`:
 ```json
 {
   "browserslist": [
-    "extends @jdhillen/browserslist-config-test/legacy"
+    "extends @jdhillen/browserslist-config/legacy"
   ]
 }
 ```
@@ -69,17 +69,17 @@ Balanced configuration for modern web applications:
 
 ```javascript
 [
-  "last 2 chrome versions",     // Chrome (~70% market share)
-  "last 2 firefox versions",    // Firefox (~5% market share)
-  "last 2 safari versions",     // Safari (~15% desktop share)
-  "last 2 edge versions",       // Microsoft Edge
-  "last 2 opera versions",      // Opera (~2% market share)
-  "last 2 ios versions",        // iOS Safari/Chrome
-  "last 2 android versions",    // Android browsers
-  "last 2 samsung versions",    // Samsung Internet
-  "> 0.5%",                    // Browsers with >0.5% global usage
-  "not dead",                  // Only maintained browsers
-  "not IE 11"                  // No IE11 support
+  'last 2 chrome versions',     // Chrome (~70% market share)
+  'last 2 firefox versions',    // Firefox (~5% market share)
+  'last 2 safari versions',     // Safari (~15% desktop share)
+  'last 2 edge versions',       // Microsoft Edge
+  'last 2 opera versions',      // Opera (~2% market share)
+  'last 2 ios versions',        // iOS Safari/Chrome
+  'last 2 android versions',    // Android browsers
+  'last 2 samsung versions',    // Samsung Internet
+  '> 0.5%',                    // Browsers with >0.5% global usage
+  'not dead',                  // Only maintained browsers
+  'not IE 11'                  // No IE11 support
 ]
 ```
 
@@ -89,11 +89,11 @@ Latest browsers for modern features and smaller bundles:
 
 ```javascript
 [
-  "last 1 chrome version",
-  "last 1 firefox version",
-  "last 1 safari version",
-  "last 1 edge version",
-  "defaults"
+  'last 1 chrome version',
+  'last 1 firefox version',
+  'last 1 safari version',
+  'last 1 edge version',
+  'defaults'
 ]
 ```
 
@@ -103,16 +103,16 @@ Extended support for enterprise environments:
 
 ```javascript
 [
-  "last 4 chrome versions",
-  "last 4 firefox versions",
-  "last 4 safari versions",
-  "last 4 edge versions",
-  "last 4 opera versions",
-  "firefox esr",              // Enterprise support
-  "maintained node versions", // Active Node.js versions
-  "> 1%",                    // Browsers with >1% usage
-  "not dead",
-  "not IE 11"
+  'last 4 chrome versions',
+  'last 4 firefox versions',
+  'last 4 safari versions',
+  'last 4 edge versions',
+  'last 4 opera versions',
+  'firefox esr',              // Enterprise support
+  'maintained node versions', // Active Node.js versions
+  '> 1%',                    // Browsers with >1% usage
+  'not dead',
+  'not IE 11'
 ]
 ```
 

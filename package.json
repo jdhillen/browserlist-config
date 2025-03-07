@@ -1,5 +1,5 @@
 {
-  "name": "@jdhillen/browserslist-config-test",
+  "name": "@jdhillen/browserslist-config",
   "version": "0.0.0",
   "description": "Browserslist shared config with multiple browser support targets",
   "license": "MIT",
@@ -18,7 +18,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jdhillen/browserslist-config-test.git"
+    "url": "git+https://github.com/jdhillen/browserslist-config.git"
   },
   "keywords": [
     "browserslist",
