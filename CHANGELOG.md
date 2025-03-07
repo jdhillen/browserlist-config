@@ -1,3 +1,15 @@
+# [2.0.0](https://github.com/jdhillen/browserslist-config/compare/v1.0.0...v2.0.0) (2025-03-07)
+
+
+### Features
+
+* trigger major version bump without code changes ([9282030](https://github.com/jdhillen/browserslist-config/commit/92820303823bf7f09709c976f46ace10834d1b27))
+
+
+### BREAKING CHANGES
+
+* Force version bump to 2.0.0
+
 # 1.0.0 (2025-03-07)
 
 
