@@ -11,21 +11,21 @@ const CONFIG_OPTIONS = {
     name: 'Default',
     description: 'Balanced support for modern and legacy browsers',
     config: [
-      "extends @jdhillen/browserslist-config-test"
+      "extends @jdhillen/browserslist-config"
     ]
   },
   modern: {
     name: 'Modern',
     description: 'Latest 2 versions of modern browsers only',
     config: [
-      "extends @jdhillen/browserslist-config-test/modern"
+      "extends @jdhillen/browserslist-config/modern"
     ]
   },
   legacy: {
     name: 'Legacy',
     description: 'Extended support for older browsers',
     config: [
-      "extends @jdhillen/browserslist-config-test/legacy"
+      "extends @jdhillen/browserslist-config/legacy"
     ]
   }
 };
